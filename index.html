@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Novo Cadastro</h1>
+        </header>
+        <section>
+            <form>
+                <div class="formulario">
+                    <div>
+                        <label class="label" la for="nome-completo">Nome Completo:</label>
+                        <input required id="nome-completo" name="nome" type="text">
+                    </div>
+                    <div>
+                        <label class="label" for="telefone">Telefone:</label>
+                        <input id="telefone" name="telefone"  placeholder="(00) 00000-0000" type="tel">
+                    </div>
+                    <div>
+                        <label class="label" for="e-mail">E-mail:</label>
+                        <input id="e-mail" name="email" type="email">
+                    </div>
+                    <div>
+                        <label class="label" for="CPF">CPF:</label>
+                        <input id="CPF" placeholder="000.000.000-00" name="CPF" type="text">
+                    </div>
+                    <div>
+                        <label class="label" for="estado">Estado:</label>
+                        <select id="estado" name="estado">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="label" for="cidade">Cidade:</label>
+                        <input id="cidade" name="cidade" type="text">
+                    </div>
+                    <div>
+                        <label class="label" for="CEP">CEP:</label>
+                        <input id="CEP" placeholder="00000-000" name="CEP" type="text">
+                    </div>
+                    <div>
+                        <label class="label" for="rua">Rua:</label>
+                        <input id="rua" name="rua" type="text">
+                    </div>
+                    <div>
+                        <label class="label" for="numero">Número:</label>
+                        <input id="numero" name="numero" type="number">
+                    </div>
+                    <div>
+                        <label class="label" for="bairro">Bairro:</label>
+                        <input id="bairro" name="bairro" type="text">
+                    </div>
+                    <button id="btn" type="submit">Cadastrar +</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <div class="container-cadastros">
+        <h1>Cadastros</h1>
+        <div class="cadastros">
+                
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="./js/jquery.mask.min.js"></script>
+<script src="./js/jquery.validate.min.js"></script>
+<script src="main.js"></script>
+</html>

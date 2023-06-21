@@ -1,0 +1,157 @@
+* {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.container {
+    padding-top: 150px;
+    text-align: center;
+    width: 1024px;
+    max-width: 100%;
+}
+
+.container h1 {
+    font-size: 60px;
+}
+
+form{
+    padding-top: 30px;
+    width: 450px;
+}
+
+.formulario div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px; 
+    border-bottom: solid 1px;
+    margin-bottom: 5px;
+}
+
+label {
+    color: red;
+    font-size: 14px;
+}
+
+.label {
+    color: black;
+    text-align: left;
+    width: 200px;
+    font-size: 26px;
+    margin:0;
+}
+
+input {
+    max-width: 208px;
+    width: 100%;
+    border-radius: 4px;
+    margin: 0;
+    font-size: 16px
+}
+
+#estado {
+    width: 215px;
+    border-width: 2px;
+    border-radius: 4px;
+    margin: 0;
+    font-size: 16px
+}
+
+button {
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 100%;
+    background-color: rgb(159, 197, 133);
+}
+
+#telefone::-webkit-input-placeholder{
+    color: rgb(174, 179, 194);
+}
+
+#CPF::-webkit-input-placeholder{
+    color: rgb(174, 179, 194);
+}
+
+#CEP::-webkit-input-placeholder{
+    color: rgb(174, 179, 194);
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.container-cadastros {
+    justify-content: left;
+    margin-top: 200px;
+}
+
+.container-cadastros h1 {
+    text-align:left;
+    padding-left: 50px;
+    font-size: 60px;
+    border-top: solid black 1px;
+    padding-top: 30px;
+}
+
+.cadastros {
+    justify-content: left;
+    margin: 10px 30px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+}
+
+#pessoas  {
+    font-size: 14px;
+    background-color: rgb(194, 154, 35);
+    margin-right: 10px;
+    margin-left: 0px ;
+    margin-bottom: 10px;
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+    border: solid black 1px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.info-principal {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+}
+
+#pessoas ul {
+    padding-left: 0;
+    word-break: break-all;
+    margin: 2px 5px ;
+    list-style: none;
+}
+
+.menu-pessoa {
+    margin-right: 0px;
+    padding-right: 5px;
+    width: 50px;
+}
+
+.menu-pessoa img{
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+#nome {
+    font-size: 16px;
+}
+
+.formulario div {
+    flex-wrap: wrap;
+}
+
+
+
+
